@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# VaultPad 🔐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Your personal space for secure and private notes.
 
-## Available Scripts
+🌐 Live Demo: https://vaultpad-jv.vercel.app
 
-In the project directory, you can run:
+> ⚠️ Note: The backend is hosted on a free cloud tier, so the application may take around 30–60 seconds to respond on the first request after inactivity.
 
-### `npm start`
+VaultPad is a lightweight web application that allows users to create, manage, and protect their personal notes online. Users can lock sensitive notes for privacy, access them securely, and manage everything through a clean and distraction-free interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ✨ Features
 
-### `npm test`
+## 📝 Note Management
+Create, edit, and store text-based notes securely online.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔒 Lock Protection
+Protect sensitive notes with a password lock for additional privacy.
 
-### `npm run build`
+## 🔑 Secure Access
+Locked notes require verification before the content becomes accessible.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔓 Remove Lock
+Remove protection anytime when the note no longer requires privacy.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🗑️ Delete Notes
+Permanently delete notes that are no longer needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚡ Fast & Minimal Interface
+Simple UI focused on speed, usability, and distraction-free writing.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🚀 Project Goal
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+VaultPad is designed to provide users with a simple and secure platform for storing personal information, quick notes, ideas, credentials, and temporary data without unnecessary complexity.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project focuses on:
+- Simplicity
+- Privacy
+- Accessibility
+- Secure note management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Layer | Technology |
+|---|---|
+| Frontend | React |
+| Backend | Spring Boot |
+| Database | MySQL |
+| Deployment | Vercel + Render |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 🌟 Future Enhancements
 
-### Analyzing the Bundle Size
+- 🎨 Rich text editor support
+- 🏷️ Categories and tags
+- 🔍 Search functionality
+- 🤝 Secure note sharing
+- ⏳ Auto-lock on inactivity
+- 🌙 Dark & light themes
+- 📱 Fully responsive mobile UI
+- 📂 File and image uploads
+- 🔄 Auto-save support
+- 📜 Note history and recovery
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# ⚙️ Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone the frontend and backend repositories separately, configure the required environment variables, connect the database, and run both services locally.
 
-### Advanced Configuration
+The frontend communicates with the backend API to manage all note and security operations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### [Javvaji Venkateswarlu](https://github.com/Venkateswarlu-J)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 📖 Vision
+
+VaultPad aims to become a modern and secure online workspace where users can safely manage important information with speed, simplicity, and privacy at its core.
